@@ -1,0 +1,37 @@
+/* predix */
+* {
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-kerning: auto;
+}
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+/* end of prefix */
+
+body {
+}
+aside {
+  background-color: #273747;
+  position: fixed;
+  width: 22vw;
+  height: 1080px;
+}
+
+article {
+  display: grid;
+  grid-template-columns: 22vw auto;
+}
+
+.main {
+  grid-column-start: 2;
+}
